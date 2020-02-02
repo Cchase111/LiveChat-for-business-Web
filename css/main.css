@@ -1,0 +1,299 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Source sans pro";
+    font-size: 14px;
+    line-height: 24px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* 
+======================
+Header style
+======================
+*/
+
+header{
+    margin-top: -15px;
+   background: url("./../images/banner.png");
+   height: 90%;
+   width: 100%;
+   background-size: cover;
+   padding: 5rem 0rem;
+}
+.header__text {
+   padding-left: 30%;
+   color: white;
+}
+
+.header__text h1 {
+    font-size: 4.5rem;
+    padding-bottom: 1.7rem;
+}
+.header__text i{
+    font-size: 1.1rem;
+
+}
+.header__text p{
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.header__text .header__btn {
+    margin-top: 4rem;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+
+/* 
+* MAIN
+*
+*/
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.phones__header_illustration{
+    margin-top: -12%;
+    text-align: center;
+}
+
+.action__bouttons{
+    padding: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.action__bouttons .btn {
+    margin-right: 3rem;
+}
+
+.explain__opensource_section{
+    background: #F2F2F2;
+    padding: 6rem 6rem 8rem 8rem;
+    display: flex;
+
+}
+.explain__opensource_section>div{
+    width: 50%;
+    padding: 1rem;
+}
+
+
+.explain__opensource_section p span  {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    padding:  0 0 1rem 0;
+    font-weight: bold;
+    background-image: linear-gradient(transparent, rgba(42, 117, 191, 0.349));
+    display: inline-block;
+    font-family: poppins;
+
+}
+.explain__opensource_section .text__part_description{
+    padding-right: 4rem;
+    margin-top: 5rem;
+    line-height: 40px;
+}
+.explain__opensource_section .image__part img{
+    width: 80%;
+}
+
+.explain__opensource_section .image__part{
+    text-align: right;
+}
+
+.explain__multiplatform_section{
+    text-align: center;
+}
+
+.explain__multiplatform_section h3{
+    font-size: 2rem;
+    padding: 3rem 10rem 1.5rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+.testimonials{
+    display: flex;
+    align-items: center;
+    margin: 3rem 0;
+    background: #2A75BF;
+}
+.testimonials>div{
+    padding: 0 5rem;
+    width: 50%;
+    text-align: center;
+}
+
+.testimonials .testimonials__image img{
+    transform: scale(.75);
+}
+
+.testimonials .testimonials__text{
+    padding: 5rem 0;
+    color: white;
+    text-align: left;
+}
+
+.testimonials .testimonials__text h3{
+    font-size: 2rem;
+    font-family: poppins;
+}
+
+
+.testimonials .testimonials__text p{
+    font-size: 1rem;
+    line-height: 3rem;
+    width: 60%;
+    font-style: italic;
+}
+.testimonials__author{
+    font-family: poppins;
+    margin-top: 3rem;
+}
+
+.last__CTA__section{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem 5rem;
+}
+
+.last__CTA__section .text__part {
+    font-size: 1.2rem;
+    font-family: poppins;
+}
+
+
+.last__CTA__section .btn {
+    margin-right: 1rem;
+}
+
+footer{
+    background: #F2F2F2;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .signature{
+    font-family: poppins;
+    color: #2A75BF;
+    font-weight: bold;
+}
+/**
+* BUTTONS
+*
+*/
+
+.btn{
+    padding: 1rem 2.5rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn img{
+    width: 1.5rem;
+    padding-right: .5rem;
+}
+
+.btn span{
+    float: right;
+}
+
+.btn__rounded{
+    border-radius: 30px;
+}
+
+.btn__outline {
+    border: 1px solid #000;
+}
+
+.btn__gray{
+    background: #E0E0E0;
+}
+.btn__red{
+    background: #E11235;
+    color: white;
+}
+
+
+
+/*//////////////////////////////// Login //////////////////////*/
+
+form{
+    background: white;
+    width: 40%;
+    padding: 0 5%;
+    margin-left: 25%;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.13);
+}
+
+form p{
+    color: #828282; 
+}
+.login__main{
+    margin: auto;
+    text-align: center;
+    background: whitesmoke;
+}
+
+form img{
+    width: 40%;
+}
+
+form .form__field{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+form input {
+    width: 95%;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    margin-top: 3px;
+    border-radius: 3px;
+    font-family: poppins;
+}
+
+
+label {
+    color: #828282;
+    font-weight: bold;
+}
+
+.form__control label {
+    font-weight: bold;
+}
+.forms{
+    margin-top: 3rem;
+}
+
+.forms .btn {
+    text-align: center;
+}
+
+form .form__field .small{
+    font-size: .9rem;
+    text-align: center;
+    line-height: .5rem;
+}

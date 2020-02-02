@@ -1,0 +1,78 @@
+.header__text {
+    padding-left: 15%;
+    color: white;
+ }
+
+ .phones__header_illustration img{
+    width: 100%;
+}
+.phones__header_illustration{
+    margin-top: -20%;
+}
+.explain__opensource_section{
+    flex-direction: column;
+}
+.explain__opensource_section>div{
+    width: 100%;
+}
+.explain__opensource_section .image__part{
+    text-align: center;
+}
+
+.explain__opensource_section .text__part {
+    text-align: center;
+}
+
+.testimonials{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.testimonials__text{
+    padding: 2rem !important;
+    text-align: center;
+}
+
+.testimonials .testimonials__text p {
+    font-size: 1rem;
+    line-height: 3rem;
+    width: 100%;
+    font-style: italic;
+}
+
+.last__CTA__section{
+    flex-direction: column;
+}
+
+.last__CTA__section .text__part{
+    line-height: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.last__CTA__section .buttons__part {
+    text-align: center;
+}
+
+.last__CTA__section .buttons__part .btn, .action__bouttons .btn {
+    margin-top: 1rem;
+}
+
+
+.explain__multiplatform_section h3 {
+    font-size: 1.4rem;
+}
+
+.explain__multiplatform_section img{
+    width: 75%;
+}
+
+.explain__opensource_section .text__part_description {
+    padding-right: 0rem;
+}
+
+.testimonials>div {
+    width: 100%;
+}

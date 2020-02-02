@@ -1,0 +1,24 @@
+.explain__multiplatform_section h3 {
+    padding: 3rem 1.5rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+.explain__opensource_section {
+    background: #F2F2F2;
+    padding: 2rem;
+    display: flex;
+}
+
+header {
+    background-position: center bottom;
+}
+
+form{
+    background: white;
+    width: 60%;
+    padding: 0 5%;
+    margin-left: 15%;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.13);
+}

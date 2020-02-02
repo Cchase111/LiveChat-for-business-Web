@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ulife Realtime Chat</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 930px)" href="./css/930.css">
+    <link rel="stylesheet" media="screen and (max-width: 740px)" href="./css/740.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="./css/480.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+   
+    
+</head>
+<body>
+    
+    <main class="login__main">
+        <form>
+            <img src="./images/output-onlinepngtools(1).png">
+            <h1>Register : Step 1</h1>
+            <p>Fill basic information to help us identify your business</p>
+            <div class="forms">
+                <div class="form__field">
+                    <label for="client__phone">Téléphone</label>
+                    <input type="tel" id="client__phone" placeholder="+237699950412"/>
+                </div>
+                <div class="form__field">
+                    <label for="client__name">Nom</label>
+                    <input type="text" id="client__name" placeholder="Rene Andre"/>
+                </div>
+                <div class="form__field">
+                    <label for="client__localization">Localisation</label>
+                    <input type="text" id="client__localization" placeholder="Rue, ville, pays">
+                </div>
+                <div class="form__field">
+                    <span class="small">
+                        <b> * </b> En continuant vous acceptez les conditions stipuler <a>ici</a> 
+                    </span>
+                </div>
+                <div class="form__field" id="create__client_account">
+                    <div class="btn btn__red btn__rounded ">
+                        Continuer
+                    </div>
+                </div>
+                
+            </div>
+            
+        </form>
+    </main>
+    
+    
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.refresh();
+    </script>
+</body>
+</html>
